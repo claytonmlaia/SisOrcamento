@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -94,6 +93,8 @@ Route::get('cadastramento/agenda','AgendaController@index');
 
 //ABRE CADASTRAMENTO DE SITUAÇÃO DO ORÇAMENTO
 Route::get('cadastramento/situacao','SituacaoController@index');
+
+
 
 
 
