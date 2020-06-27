@@ -1,0 +1,379 @@
+/* Cracha */
+
+.crachaContainer {
+    max-height: 864px;
+    max-width: 560px;
+    background-color: #98dfb6;
+    vertical-align: middle;
+    margin:0 auto;
+    position: relative;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.crachaContainer .crachaImg{
+    width: 100%;
+    position:absolute;
+    z-index:1;
+}
+.crachaContainer .crachaFoto{
+    width: 158px;
+    height: 200px;
+    max-width: 207px;
+    max-height: 256px;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    top:168px;
+    left:25px;
+    z-index:2;
+}
+.crachaContainer .crachaMatricula{
+    position:absolute;
+    top:146px;
+    left:200px;
+    z-index:3;
+
+}
+.crachaContainer .crachaMatriculaValue{
+    width: 150px;
+    position:absolute;
+    top:168px;
+    left:205px;
+    z-index:4;
+
+}
+.crachaContainer .crachaAdmissao{
+     position:absolute;
+     top:146px;
+     left:380px;
+     z-index:5;
+ }
+.crachaContainer .crachaAdmissaoValue{
+    width: 300px;
+    position:absolute;
+    top:168px;
+    left:380px;
+    z-index:6;
+}
+.crachaContainer .crachaNome{
+    width: 150px;
+    position:absolute;
+    top:230px;
+    left:200px;
+    z-index:7;
+}
+.crachaContainer .crachaNomeValue{
+    width: 300px;
+    position:absolute;
+    top:253px;
+    left:205px;
+    z-index:8;
+}
+.crachaContainer .crachaCpf{
+    width: 150px;
+    position: absolute;
+    top:320px;
+    left:200px;
+    z-index:9;
+}
+.crachaContainer .crachaCpfValue{
+    width: 300px;
+    position: absolute;
+    top:343px;
+    left:205px;
+    z-index:10;
+}
+.crachaContainer .crachaSituacao{
+    width: 150px;
+    position:absolute;
+    top:320px;
+    left:380px;
+    z-index:11;
+}
+.crachaContainer .crachaSituacaoValue{
+    width: 300px;
+    position:absolute;
+    top:343px;
+    left:380px;
+    z-index:12;
+}
+.crachaContainer .crachaRg{
+    width: 150px;
+    position:absolute;
+    top:410px;
+    left:25px;
+    z-index:13;
+}
+.crachaContainer .crachaRgValue{
+    width: 250px;
+    position:absolute;
+    top:432px;
+    left:25px;
+    z-index:14;
+}
+.crachaContainer .crachaPisPasep{
+    width:150px;
+    position:absolute;
+    top:410px;
+    left:300px;
+    z-index:15;
+}
+.crachaContainer .crachaPisPasepValue{
+    width: 300px;
+    position:absolute;
+    top:432px;
+    left:300px;
+    z-index:16;
+}
+
+.crachaContainer .crachaDataNascimento{
+    width: 300px;
+    position:absolute;
+    top:410px;
+    left:425px;
+    z-index:17;
+}
+.crachaContainer .crachaDataNascimentoValue{
+    width: 300px;
+    position:absolute;
+    top:432px;
+    left:430px;
+    z-index:18;
+}
+
+.crachaContainer .crachaFiliacao{
+    width: 300px;
+    position:absolute;
+    top:485px;
+    left:25px;
+    z-index:19;
+}
+.crachaContainer .crachaFiliacaoValue{
+    width:510px;
+    position:absolute;
+    top:510px;
+    left:30px;
+    z-index:20;
+}
+.crachaContainer .crachaCargo{
+    width: 300px;
+    position:absolute;
+    top:580px;
+    left:25px;
+    z-index:21;
+}
+.crachaContainer .crachaCargoValue{
+    width: 510px;
+    position:absolute;
+    top:605px;
+    left:25px;
+    z-index:22;
+}
+.crachaContainer .qrcode {
+    top:660px;
+    left:190px;
+    position:absolute;
+    z-index:23;
+}
+#ImageSelf{
+    width: 145px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.cachaBackground{
+    /*width:150px;*/
+}
+
+
+/* PARA TELAS DE CELULAR */
+@media only screen and (max-width: 600px) {
+
+    .crachaContainer {
+        width: 200%;
+        position: relative;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bold;
+        border: dashed;
+        background-color: #0b2e13;
+        align-items: center;
+    }
+    .crachaContainer .crachaImg{
+        width: 100%;
+        position:absolute;
+        z-index:1;
+    }
+    .crachaContainer .crachaFoto{
+        width: 158px;
+        height: 200px;
+        max-width: 207px;
+        max-height: 256px;
+        margin: 0px;
+        padding: 0px;
+        position:absolute;
+        top:168px;
+        left:25px;
+        z-index:2;
+    }
+    .crachaContainer .crachaMatricula{
+        position:absolute;
+        top:146px;
+        left:200px;
+        z-index:3;
+
+    }
+    .crachaContainer .crachaMatriculaValue{
+        width: 150px;
+        position:absolute;
+        top:168px;
+        left:205px;
+        z-index:4;
+
+    }
+    .crachaContainer .crachaAdmissao{
+        position:absolute;
+        top:146px;
+        left:380px;
+        z-index:5;
+    }
+    .crachaContainer .crachaAdmissaoValue{
+        width: 300px;
+        position:absolute;
+        top:168px;
+        left:380px;
+        z-index:6;
+    }
+    .crachaContainer .crachaNome{
+        width: 150px;
+        position:absolute;
+        top:230px;
+        left:200px;
+        z-index:7;
+    }
+    .crachaContainer .crachaNomeValue{
+        width: 300px;
+        position:absolute;
+        top:253px;
+        left:205px;
+        z-index:8;
+    }
+    .crachaContainer .crachaCpf{
+        width: 150px;
+        position: absolute;
+        top:320px;
+        left:200px;
+        z-index:9;
+    }
+    .crachaContainer .crachaCpfValue{
+        width: 300px;
+        position: absolute;
+        top:343px;
+        left:205px;
+        z-index:10;
+    }
+    .crachaContainer .crachaSituacao{
+        width: 150px;
+        position:absolute;
+        top:320px;
+        left:380px;
+        z-index:11;
+    }
+    .crachaContainer .crachaSituacaoValue{
+        width: 300px;
+        position:absolute;
+        top:343px;
+        left:380px;
+        z-index:12;
+    }
+    .crachaContainer .crachaRg{
+        width: 150px;
+        position:absolute;
+        top:410px;
+        left:25px;
+        z-index:13;
+    }
+    .crachaContainer .crachaRgValue{
+        width: 260px;
+        position:absolute;
+        top:432px;
+        left:25px;
+        z-index:14;
+    }
+    .crachaContainer .crachaPisPasep{
+        width:150px;
+        position:absolute;
+        top:410px;
+        left:300px;
+        z-index:15;
+    }
+    .crachaContainer .crachaPisPasepValue{
+        width: 300px;
+        position:absolute;
+        top:432px;
+        left:300px;
+        z-index:16;
+    }
+
+    .crachaContainer .crachaDataNascimento{
+        width: 300px;
+        position:absolute;
+        top:410px;
+        left:425px;
+        z-index:17;
+    }
+    .crachaContainer .crachaDataNascimentoValue{
+        width: 300px;
+        position:absolute;
+        top:432px;
+        left:430px;
+        z-index:18;
+    }
+
+    .crachaContainer .crachaFiliacao{
+        width: 300px;
+        position:absolute;
+        top:485px;
+        left:25px;
+        z-index:19;
+    }
+    .crachaContainer .crachaFiliacaoValue{
+        width:510px;
+        position:absolute;
+        top:510px;
+        left:30px;
+        z-index:20;
+    }
+    .crachaContainer .crachaCargo{
+        width: 300px;
+        position:absolute;
+        top:580px;
+        left:25px;
+        z-index:21;
+    }
+    .crachaContainer .crachaCargoValue{
+        width: 510px;
+        position:absolute;
+        top:605px;
+        left:25px;
+        z-index:22;
+    }
+    .crachaContainer .qrcode {
+        top:650px;
+        left:190px;
+        position:absolute;
+        z-index:23;
+    }
+    #ImageSelf{
+        width: 145px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    .cachaBackground{
+        width:100%;
+    }
+
+}
+
+
+
+
