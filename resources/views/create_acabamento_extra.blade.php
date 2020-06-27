@@ -9,7 +9,7 @@
                 <div class="card">
                     <div class="card-header bg-gradient-indigo">
                     <!--Bem vindo {{ Auth::user()->name }}-->
-                        <h4>Cadastrar Cores</h4>
+                        <h4>Cadastrar Acabamentos Extras</h4>
                     </div>
 
                     <div class="card-body">
@@ -19,16 +19,16 @@
                             </div>
                         @endif
                         {{-- CADOS QUE APARECERÃO NA TELA --}}
-                        <form id="cadastro_cores" method="POST" action="{{ route('salvacor') }}" name="cadastro_cores" onload="bloqueiacampos()">
+                        <form id="cadastro_acabamento" method="POST" action="{{ route('salvacabamento') }}" name="cadastro_acabamento" onload="bloqueiacampos()">
                             @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-8">
-                                    <label for="inputEmail4">COR</label>
-                                    <input type="text" class="form-control" id="cor" name="cor" placeholder="Cor">
+                                    <label for="inputEmail4">ACABAMENTO</label>
+                                    <input type="text" class="form-control" id="acabamento" name="acabamento">
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputPassword4">PREÇO</label>
-                                    <input type="text" class="form-control" id="preco_cor" name="preco_cor">
+                                    <input type="text" class="form-control" id="preco_acabamento" name="preco_acabamento">
                                 </div>
                             </div>
                             <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> CADASTRAR</button>

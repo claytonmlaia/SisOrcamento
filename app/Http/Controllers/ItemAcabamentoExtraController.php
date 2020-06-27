@@ -19,6 +19,11 @@ class ItemAcabamentoExtraController extends Controller
     }
 
 
+    public function cadastrar()
+    {
+        return view('create_acabamento_extra');
+    }
+
     public function create()
     {
         //
@@ -27,7 +32,13 @@ class ItemAcabamentoExtraController extends Controller
 
     public function store(Request $request)
     {
-        //
+        $cadastrar = new ItemAcabamentoExtra();
+        $cadastrar->acbDescricao = $request->acabamento;
+        $cadastrar->acbPreco = $request->preco_acabamento;
+        $cadastrar->save();
+
+        $msg = flash(__('msgOrcamento.acabamento.cadastrar.sucesso'))->success();
+        return redirect()->action('EditaClientes@index')->with('msgProcesso', $msg);
     }
 
 

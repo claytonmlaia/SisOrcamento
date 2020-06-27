@@ -54,7 +54,7 @@ Route::get('cadastramento/produtos/tipo','ItemTipoController@index');
 Route::get('cadastramento/produtos/cor','ItemCorController@index');
 //ABRE CADASTRAR COR
 Route::get('/cadastramento/produtos/cor/cad','ItemCorController@cadastrar');
-//SALVA OS DADOS DE CLIENTE NO BANCO
+//SALVA OS DADOS DE COR NO BANCO
 Route::resource('/cadastramento/produtos/cor/slv',"ItemCorController",['names'=> ['store'=>'salvacor']]);
 
 
@@ -74,6 +74,10 @@ Route::get('cadastramento/produtos/malha','ItemMalhaController@index');
 
 //ABRE CADASTRAMENTO DE PRODUTOS/ACABAMENTO EXTRA DO PRODUTO
 Route::get('cadastramento/produtos/acabamentoextra','ItemAcabamentoExtraController@index');
+//ABRE CADASTRAR ACABAMENTO EXTRA
+Route::get('/cadastramento/produtos/acabamentoextra/cad','ItemAcabamentoExtraController@cadastrar');
+//SALVA OS DADOS DE ACABAMENTO EXTRA NO BANCO
+Route::resource('/cadastramento/produtos/acabamentoextra/slv',"ItemAcabamentoExtraController",['names'=> ['store'=>'salvacabamento']]);
 
 
 
