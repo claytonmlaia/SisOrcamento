@@ -97,6 +97,8 @@ Route::get('cadastramento/situacao','SituacaoController@index');
 
 
 
+
+
 //ABRE CADASTRAMENTO DE PRODUTOS/ PRODUTO
 Route::get('orcamentos','OrcamentoController@index');
 //ABRE CADASTRAMENTO DE PRODUTOS/ PRODUTO
