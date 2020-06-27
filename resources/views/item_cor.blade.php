@@ -175,7 +175,7 @@
             );
         }
         //POPUP CADASTRAR CLIENTE
-        function aoClicarCadastrar(pHeight=795,pWidth=1024){
+        function aoClicarCadastrar(pHeight=300,pWidth=800){
 
             let dualScreenLeft = window.screenLeft !== undefined ? window.screenLeft : window.screenX;
             let dualScreenTop = window.screenTop !== undefined ? window.screenTop : window.screenY;
@@ -188,7 +188,7 @@
             let intTop = (height - pHeight) / 2 / systemZoom + dualScreenTop;
 
             let w = window.open(
-                "/clientes/cad",
+                "/cadastramento/produtos/cor/cad",
                 "inscricao",
                 "toolbar=no, " +
                 "scrollbars=no, " +

@@ -52,6 +52,11 @@ Route::get('cadastramento/produtos/tipo','ItemTipoController@index');
 
 //ABRE CADASTRAMENTO DE PRODUTOS/COR DE PRODUTO
 Route::get('cadastramento/produtos/cor','ItemCorController@index');
+//ABRE CADASTRAR COR
+Route::get('/cadastramento/produtos/cor/cad','ItemCorController@cadastrar');
+//SALVA OS DADOS DE CLIENTE NO BANCO
+Route::resource('/cadastramento/produtos/cor/slv',"ItemCorController",['names'=> ['store'=>'salvacor']]);
+
 
 
 
