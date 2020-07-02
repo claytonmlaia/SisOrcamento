@@ -20,7 +20,6 @@ class ClientesController extends Controller
         return view('clientes',compact('tipocliente','clientes'));
     }
 
-
     public function create()
     {
         //
