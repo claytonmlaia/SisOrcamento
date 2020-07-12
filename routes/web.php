@@ -116,4 +116,3 @@ Route::get('orcamentos/{id}','OrcamentoController@show');
 
 
 
-//Route::apiResource('/api2','Api\AcessoExternoController');
